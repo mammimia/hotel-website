@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header';
 import Home from './pages/Home';
 import RoomDetails from './pages/RoomDetails';
 
@@ -13,11 +13,11 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <div>
+    <>
       <Header />
       <RouterProvider router={router} />
       <Footer />
-    </div>
+    </>
   );
 };
 
