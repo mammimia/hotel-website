@@ -24,8 +24,23 @@ import {
   FaSwimmingPool,
   FaHotdog,
   FaStopwatch,
-  FaCocktail,
+  FaCocktail
 } from 'react-icons/fa';
+
+export const adultsData = [
+  { name: '1 Adult' },
+  { name: '2 Adults' },
+  { name: '3 Adults' },
+  { name: '4 Adults' }
+];
+
+export const kidsData = [
+  { name: '0 Kids' },
+  { name: '1 Kid' },
+  { name: '2 Kids' },
+  { name: '3 Kids' },
+  { name: '4 Kids' }
+];
 
 export const roomData = [
   {
@@ -41,13 +56,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 30,
     maxPerson: 1,
     price: 115,
     image: Room1Img,
-    imageLg: Room1ImgLg,
+    imageLg: Room1ImgLg
   },
   {
     id: 2,
@@ -62,13 +77,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 70,
     maxPerson: 2,
     price: 220,
     image: Room2Img,
-    imageLg: Room2ImgLg,
+    imageLg: Room2ImgLg
   },
   {
     id: 3,
@@ -83,13 +98,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 50,
     maxPerson: 3,
     price: 265,
     image: Room3Img,
-    imageLg: Room3ImgLg,
+    imageLg: Room3ImgLg
   },
   {
     id: 4,
@@ -104,13 +119,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 50,
     maxPerson: 4,
     price: 289,
     image: Room4Img,
-    imageLg: Room4ImgLg,
+    imageLg: Room4ImgLg
   },
   {
     id: 5,
@@ -125,13 +140,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 90,
     maxPerson: 5,
     price: 320,
     image: Room5Img,
-    imageLg: Room5ImgLg,
+    imageLg: Room5ImgLg
   },
   {
     id: 6,
@@ -146,13 +161,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 45,
     maxPerson: 6,
     price: 344,
     image: Room6Img,
-    imageLg: Room6ImgLg,
+    imageLg: Room6ImgLg
   },
   {
     id: 7,
@@ -167,13 +182,13 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 84,
     maxPerson: 7,
     price: 389,
     image: Room7Img,
-    imageLg: Room7ImgLg,
+    imageLg: Room7ImgLg
   },
   {
     id: 8,
@@ -188,12 +203,12 @@ export const roomData = [
       { name: 'Swimming Pool', icon: <FaSwimmingPool /> },
       { name: 'Breakfast', icon: <FaHotdog /> },
       { name: 'GYM', icon: <FaStopwatch /> },
-      { name: 'Drinks', icon: <FaCocktail /> },
+      { name: 'Drinks', icon: <FaCocktail /> }
     ],
     size: 48,
     maxPerson: 8,
     price: 499,
     image: Room8Img,
-    imageLg: Room8ImgLg,
-  },
+    imageLg: Room8ImgLg
+  }
 ];
