@@ -4,12 +4,15 @@ import Header from './components/layout/Header';
 import Home from './pages/Home';
 import RoomDetails from './pages/RoomDetails';
 
-import { createHashRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const router = createHashRouter([
-  { path: '/', element: <Home /> },
-  { path: '/room/:id', element: <RoomDetails /> }
-]);
+const router = createBrowserRouter(
+  [
+    { path: '/', element: <Home /> },
+    { path: '/room/:id', element: <RoomDetails /> }
+  ],
+  { basename: process.env.PUBLIC_URL }
+);
 
 const App = () => {
   return (
