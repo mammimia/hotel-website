@@ -22,7 +22,7 @@ const Header = () => {
       } fixed z-50 w-full transition-all duration-500`}
     >
       <div className="container mx-auto flex flex-col items-center gap-y-6 lg:flex-row lg:justify-between lg:gap-y-0">
-        <a href="/">
+        <a href={process.env.PUBLIC_URL}>
           {header ? (
             <img className="w-[160px]" alt="" src={LogoDark} />
           ) : (
@@ -46,7 +46,7 @@ const Header = () => {
 };
 
 const NavItem = ({ children }) => (
-  <a href="" className="hover:text-accent transition">
+  <a href={process.env.PUBLIC_URL} className="hover:text-accent transition">
     {children}
   </a>
 );
