@@ -1,7 +1,17 @@
 import React from 'react';
+import LogoWhite from '../../assets/img/logo-white.svg';
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer className="bg-primary py-12">
+      <div className="container mx-auto text-white flex justify-between">
+        <a href="">
+          <img alt="" src={LogoWhite} />
+        </a>
+        Copyright &copy; 2022. All rights reserved.
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
