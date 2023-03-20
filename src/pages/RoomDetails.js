@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { RoomContext } from '../context/RoomContext';
 import BookForm from '../components/book/BookForm';
 import { FaCheck } from 'react-icons/fa';
+import ScrollToTop from '../components/layout/ScrollToTop';
 
 const RoomDetails = () => {
   const { rooms } = useContext(RoomContext);
@@ -13,6 +14,7 @@ const RoomDetails = () => {
 
   return (
     <section>
+      <ScrollToTop />
       <div
         className="bg-room bg-cover bg-center h-[560px] relative flex
      justify-center items-center"
