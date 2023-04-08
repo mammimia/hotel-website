@@ -10,7 +10,7 @@ https://mammimia.github.io/hotel-website/
 
 ## Tech Stack
 
-- Next.js
+- ReactJS
 - Tailwind CSS
 
 ## Installation
